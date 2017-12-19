@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/houjinliang/WorkSpace/apue/Ourhdr/ourhdr.h
+sys/types.h
+-
+stdio.h
+-
+stdlib.h
+-
+stdlib.h
+-
+unistd.h
+-
+
+/home/houjinliang/WorkSpace/apue/show15-6/main.c
+errno.h
+-
+sys/wait.h
+-
+ourhdr.h
+/home/houjinliang/WorkSpace/apue/show15-6/ourhdr.h
+

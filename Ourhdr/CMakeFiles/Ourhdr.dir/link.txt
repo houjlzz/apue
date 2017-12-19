@@ -1,0 +1,2 @@
+/usr/bin/ar cr libOurhdr.a  CMakeFiles/Ourhdr.dir/ourhdr.c.o
+/usr/bin/ranlib libOurhdr.a

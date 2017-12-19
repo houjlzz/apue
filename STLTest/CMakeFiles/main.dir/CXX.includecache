@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/houjinliang/WorkSpace/apue/STLTest/main.cpp
+vector
+-
+cstdio
+-
+stdlib.h
+-
+unistd.h
+-
+algorithm
+-
+

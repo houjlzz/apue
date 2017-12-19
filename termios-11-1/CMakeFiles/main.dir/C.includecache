@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/houjinliang/WorkSpace/apue/Ourhdr/ourhdr.h
+sys/types.h
+-
+stdio.h
+-
+stdlib.h
+-
+stdlib.h
+-
+unistd.h
+-
+
+/home/houjinliang/WorkSpace/apue/termios-11-1/main.c
+termios.h
+-
+ourhdr.h
+/home/houjinliang/WorkSpace/apue/termios-11-1/ourhdr.h
+
